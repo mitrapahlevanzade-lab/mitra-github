@@ -5,7 +5,8 @@ def add_numbers(a, b):
 num1 = 10
 num2 = 20
 c = 20
+g = 15
 
-result = add_numbers(num1, num2)
+result = add_numbers(num1, num2) + g
 
 print("Result:", result)
